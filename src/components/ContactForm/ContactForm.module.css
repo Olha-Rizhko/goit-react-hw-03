@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 220px;
+  margin-top: 24px;
+  padding: 12px 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.wrapInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 14px;
+}
+
+.formInput {
+  border: 1px solid #767676;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.addButton {
+  border: 1px solid #767676;
+  border-radius: 4px;
+  background-color: #efefef;
+  padding: 4px 8px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  margin-top: 4px;
+}
